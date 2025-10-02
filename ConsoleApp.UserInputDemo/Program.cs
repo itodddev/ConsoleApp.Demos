@@ -1,5 +1,4 @@
 ﻿// Declare variables
-using System.Xml.Linq;
 
 string? firstName = string.Empty; // ? makes variable nullable
 string lastName = string.Empty;  // not nullable
