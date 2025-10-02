@@ -12,7 +12,7 @@ bool working; // defaults to false if not initialized
 Console.Write("Enter your first name: ");
 firstName = Console.ReadLine();
 Console.Write("Enter your lastt name: ");
-lastName = Console.ReadLine();  // Warning varible might be null
+lastName = Console.ReadLine();  // Warning, varible might be null
 
 Console.Write("Enter your age: ");
 age = Convert.ToInt32(Console.ReadLine());
@@ -30,8 +30,8 @@ int workingYearsRemaining = retirementAge - age;
 
 // Display the collected information
 Console.WriteLine($"Hello, {firstName} {lastName}. You are {age} years old.");
-Console.WriteLine($"You will retire in {workingYearsRemaining} years.");
 Console.WriteLine($"Your salary is {salary:C}.");
 Console.WriteLine($"Your gender is {gender}.");
 Console.WriteLine($"Are you working? {working}.");
+Console.WriteLine($"You will retire in {workingYearsRemaining} years.");
 
