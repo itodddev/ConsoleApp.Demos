@@ -12,4 +12,5 @@ age = Convert.ToInt32(Console.ReadLine());
 // Display the collected information
 Console.WriteLine($"Hello, {name}. You are {age} years old.");
 Console.WriteLine($"You will retire in {retirementAge - age} years.");
+Console.WriteLine("Have a nice day!");
 
