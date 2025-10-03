@@ -18,7 +18,7 @@ Console.Write("Enter your age: ");
 age = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Enter your salary: ");
-salary = Convert.ToInt32(Console.ReadLine());
+salary = Convert.ToDecimal(Console.ReadLine());
 
 Console.Write("Enter your gender (M or F): ");
 gender = Convert.ToChar(Console.ReadLine());
@@ -34,4 +34,3 @@ Console.WriteLine($"Your salary is {salary:C}.");
 Console.WriteLine($"Your gender is {gender}.");
 Console.WriteLine($"Are you working? {working}.");
 Console.WriteLine($"You will retire in {workingYearsRemaining} years.");
-
